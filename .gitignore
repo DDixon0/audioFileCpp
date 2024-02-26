@@ -1,0 +1,5 @@
+#Remove Build Folder
+build/
+
+#Personal Notes
+Notes.txt
