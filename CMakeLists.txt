@@ -6,7 +6,7 @@ set(CMAKE_TOOLCHAIN_FILE "/home/dexter/src/vcpkg/scripts/buildsystems/vcpkg.cmak
 include(CTest)
 enable_testing()
 
-add_executable(soundTest main.cpp)
+add_executable(soundTest main.cpp audiofunc.h "audioFunc/lowAndHighPassFilter.cpp" "audioFunc/combPassFilter.cpp" "audioFunc/duneFilter.cpp")
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

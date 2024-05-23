@@ -3,3 +3,9 @@ build/
 
 #Personal Notes
 Notes.txt
+
+#Remove the audio files folder
+audio-clips/
+
+#Remove the vscode file
+.vscode/
